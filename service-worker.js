@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/luisjimenez-website/precache-manifest.0321285780632bc0db8e0ef480279746.js"
+  "/luisjimenez-website/precache-manifest.0a7300f359eed355b2282237a853fb80.js"
 );
 
 workbox.clientsClaim();
