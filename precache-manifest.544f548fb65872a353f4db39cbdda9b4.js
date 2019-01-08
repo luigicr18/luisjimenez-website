@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/luisjimenez-website/static/js/runtime~main.965c8495.js"
   },
   {
-    "revision": "1a0c4e94341f792a8413",
-    "url": "/luisjimenez-website/static/js/main.1a0c4e94.chunk.js"
+    "revision": "821ef67c154650c66554",
+    "url": "/luisjimenez-website/static/js/main.821ef67c.chunk.js"
   },
   {
     "revision": "faae543100c3bb98407b",
     "url": "/luisjimenez-website/static/js/1.faae5431.chunk.js"
   },
   {
-    "revision": "caf4c77bf8b58167f3f5518af95f69a7",
+    "revision": "e9b0f6cadc2eea205c06904d7bbca69a",
     "url": "/luisjimenez-website/index.html"
   }
 ];
