@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/luisjimenez-website/static/js/1.faae5431.chunk.js"
   },
   {
-    "revision": "b6242bd5974d215a12e30a3175326ab8",
+    "revision": "17897930289b7664c93bb47913ca989c",
     "url": "/luisjimenez-website/index.html"
   }
 ];
