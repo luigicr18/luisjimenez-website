@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Heading } from 'grommet';
+import Rotate from 'react-reveal/Rotate';
+
 
 const WrapList = styled.ul`
     color: black;
@@ -74,9 +76,9 @@ const getList = (arrList,key) => {
 
 const sideBarHeading = (props) => {
     return (
-        <WrapDiv>
-             <WrapHeadings key={props.key} level={props.level} margin='none' color={props.color} >{props.headingTitle}</WrapHeadings>
-                {getList(props.arrList, props.key)}
+        <WrapDiv> 
+            <WrapHeadings key={'wrp' + props.key} level={props.level} margin='none' color={props.color} >{props.headingTitle}</WrapHeadings>
+            {getList(props.arrList, props.key)}
         </WrapDiv>
     );
 }
