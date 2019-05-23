@@ -10,18 +10,16 @@ const WrapList = styled.ul`
     list-style-type: none;
     font-size: 1.3em;
     margin-top:0.2em;
-    height: 230px;
+    height: 205px;
     transition: 0.4s;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 0;
     &:hover{
         font-size: 1.6em;
         line-height: 40px;
-        height: 295px;
-        @media (max-width: 768px) {
-            font-size: 1.3em;
-        }
+        height: 280px;
     }
     li{
         &:first-child {
@@ -33,9 +31,11 @@ const WrapList = styled.ul`
         font-size: 1em;
         line-height: 22px;
         display: block;
+        height: 100%
         &:hover{
-            line-height: 28px;
-            font-size: 1.15em;
+            line-height: 25px;
+            font-size: 1.1em;
+            height: 150%
         }
     }`;
     
@@ -66,6 +66,16 @@ const WrapDiv = styled.div `
         width: 90%;
     }
 `
+const WrapExplanation = styled.div`
+    margin: 0 1em 0.5em;
+    font-weight: 500;
+    height:140px;
+    font-size:19px;
+    @media (max-width: 768px) {
+        height:100%;
+        font-size:12px;
+    }
+`
 
 const getList = (arrList,key) => {
     const allList = arrList.map((listValue, i) => {
@@ -79,6 +89,9 @@ const sideBarHeading = (props) => {
         <WrapDiv> 
             <WrapHeadings key={'wrp' + props.key} level={props.level} margin='none' color={props.color} >{props.headingTitle}</WrapHeadings>
             {getList(props.arrList, props.key)}
+            <WrapExplanation>
+                <span>{props.explanation}</span>
+            </WrapExplanation>
         </WrapDiv>
     );
 }
