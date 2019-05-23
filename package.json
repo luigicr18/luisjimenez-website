@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://luigicr18.github.io/luisjimenez-website/",
   "dependencies": {
+    "babel-loader": "^8.0.4",
     "gh-pages": "^2.0.1",
     "grommet": "^2.2.1",
     "react": "^16.7.0",
